@@ -1,0 +1,46 @@
+name: grocery
+description: A new Flutter application.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons:
+  intl:
+  http:
+  flutter_bloc:
+  provider:
+  url_launcher:
+  flutter_launcher_icons:
+  line_icons:
+  flutter_icons:
+  shared_preferences:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter_icons:
+  image_path: 'assets/images/app_icon.png'
+  android: true
+  ios: true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Quicksand
+      fonts:
+        - asset: assets/fonts/quicksand_medium.ttf
+          style: normal
+        - asset: assets/fonts/quicksand_bold.otf
+          weight: 700
