@@ -44,7 +44,7 @@ class CommonDrawerState extends State<CommonDrawer> {
                               size: 20,
                             ),
                             SizedBox(width: 3),
-                            Text(userState.userName.toUpperCase(),
+                            Text(userState.userName,
                                 style: TextStyle(
                                     fontSize: 15.0, color: Colors.teal))
                           ]),
